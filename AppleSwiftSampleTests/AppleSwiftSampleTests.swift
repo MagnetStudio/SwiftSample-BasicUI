@@ -2,8 +2,8 @@
 //  AppleSwiftSampleTests.swift
 //  AppleSwiftSampleTests
 //
-//  Created by Ka on 2016/10/07.
-//  Copyright © 2016年 KaJack KaJack Ka. All rights reserved.
+//  Created by Ka on 2016/10/09.
+//  Copyright © 2016年 KaJack. All rights reserved.
 //
 
 import XCTest
@@ -28,7 +28,7 @@ class AppleSwiftSampleTests: XCTestCase {
     
     func testPerformanceExample() {
         // This is an example of a performance test case.
-        self.measureBlock {
+        self.measure {
             // Put the code you want to measure the time of here.
         }
     }

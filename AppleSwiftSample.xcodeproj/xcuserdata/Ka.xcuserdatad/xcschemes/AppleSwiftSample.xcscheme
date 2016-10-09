@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0730"
+   LastUpgradeVersion = "0800"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "0A8BFD621DA73981003DA049"
+               BlueprintIdentifier = "0A48A7951DAA50E3007D9B5A"
                BuildableName = "AppleSwiftSample.app"
                BlueprintName = "AppleSwiftSample"
                ReferencedContainer = "container:AppleSwiftSample.xcodeproj">
@@ -32,7 +32,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "0A8BFD761DA73981003DA049"
+               BlueprintIdentifier = "0A48A7A91DAA50E3007D9B5A"
                BuildableName = "AppleSwiftSampleTests.xctest"
                BlueprintName = "AppleSwiftSampleTests"
                ReferencedContainer = "container:AppleSwiftSample.xcodeproj">
@@ -42,7 +42,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "0A8BFD621DA73981003DA049"
+            BlueprintIdentifier = "0A48A7951DAA50E3007D9B5A"
             BuildableName = "AppleSwiftSample.app"
             BlueprintName = "AppleSwiftSample"
             ReferencedContainer = "container:AppleSwiftSample.xcodeproj">
@@ -65,7 +65,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "0A8BFD621DA73981003DA049"
+            BlueprintIdentifier = "0A48A7951DAA50E3007D9B5A"
             BuildableName = "AppleSwiftSample.app"
             BlueprintName = "AppleSwiftSample"
             ReferencedContainer = "container:AppleSwiftSample.xcodeproj">
@@ -84,7 +84,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "0A8BFD621DA73981003DA049"
+            BlueprintIdentifier = "0A48A7951DAA50E3007D9B5A"
             BuildableName = "AppleSwiftSample.app"
             BlueprintName = "AppleSwiftSample"
             ReferencedContainer = "container:AppleSwiftSample.xcodeproj">

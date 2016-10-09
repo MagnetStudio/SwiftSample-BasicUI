@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AppleSwiftSample/AppDelegate.swift"
+            timestampString = "497707521.566878"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "12"
+            endingLineNumber = "12"
+            landmarkName = "AppDelegate"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AppleSwiftSample.AppDelegate.__deallocating_deinit"
+                  moduleName = "AppleSwiftSample"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Ka/Google%20%E3%83%88%E3%82%99%E3%83%A9%E3%82%A4%E3%83%95%E3%82%99/Drive-Ka/Dev/iOS/AppleSwiftSample/AppleSwiftSample/AppDelegate.swift"
+                  timestampString = "497707521.588481"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AppleSwiftSample.AppDelegate.init () -&gt; AppleSwiftSample.AppDelegate"
+                  moduleName = "AppleSwiftSample"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Ka/Google%20%E3%83%88%E3%82%99%E3%83%A9%E3%82%A4%E3%83%95%E3%82%99/Drive-Ka/Dev/iOS/AppleSwiftSample/AppleSwiftSample/AppDelegate.swift"
+                  timestampString = "497707521.594491"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "24">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AppleSwiftSample.AppDelegate.__allocating_init () -&gt; AppleSwiftSample.AppDelegate"
+                  moduleName = "AppleSwiftSample"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Ka/Google%20%E3%83%88%E3%82%99%E3%83%A9%E3%82%A4%E3%83%95%E3%82%99/Drive-Ka/Dev/iOS/AppleSwiftSample/AppleSwiftSample/AppDelegate.swift"
+                  timestampString = "497707521.596169"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "main"
+                  moduleName = "AppleSwiftSample"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Ka/Google%20%E3%83%88%E3%82%99%E3%83%A9%E3%82%A4%E3%83%95%E3%82%99/Drive-Ka/Dev/iOS/AppleSwiftSample/AppleSwiftSample/AppDelegate.swift"
+                  timestampString = "497707521.597554"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "22">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

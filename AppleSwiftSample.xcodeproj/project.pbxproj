@@ -13,6 +13,8 @@
 		0A48A7A11DAA50E3007D9B5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A48A7A01DAA50E3007D9B5A /* Assets.xcassets */; };
 		0A48A7A41DAA50E3007D9B5A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A48A7A21DAA50E3007D9B5A /* LaunchScreen.storyboard */; };
 		0A48A7AF1DAA50E3007D9B5A /* AppleSwiftSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A48A7AE1DAA50E3007D9B5A /* AppleSwiftSampleTests.swift */; };
+		0A48A7BA1DAA7EE6007D9B5A /* RatingControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A48A7B91DAA7EE6007D9B5A /* RatingControl.swift */; };
+		0A48A7BC1DAA82B7007D9B5A /* LaunchScreenApp.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A48A7BB1DAA82B7007D9B5A /* LaunchScreenApp.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		0A48A7AA1DAA50E3007D9B5A /* AppleSwiftSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppleSwiftSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A48A7AE1DAA50E3007D9B5A /* AppleSwiftSampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleSwiftSampleTests.swift; sourceTree = "<group>"; };
 		0A48A7B01DAA50E3007D9B5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A48A7B91DAA7EE6007D9B5A /* RatingControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RatingControl.swift; sourceTree = "<group>"; };
+		0A48A7BB1DAA82B7007D9B5A /* LaunchScreenApp.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreenApp.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,12 +81,14 @@
 		0A48A7981DAA50E3007D9B5A /* AppleSwiftSample */ = {
 			isa = PBXGroup;
 			children = (
+				0A48A7B91DAA7EE6007D9B5A /* RatingControl.swift */,
 				0A48A7991DAA50E3007D9B5A /* AppDelegate.swift */,
 				0A48A79B1DAA50E3007D9B5A /* ViewController.swift */,
 				0A48A79D1DAA50E3007D9B5A /* Main.storyboard */,
 				0A48A7A01DAA50E3007D9B5A /* Assets.xcassets */,
 				0A48A7A21DAA50E3007D9B5A /* LaunchScreen.storyboard */,
 				0A48A7A51DAA50E3007D9B5A /* Info.plist */,
+				0A48A7BB1DAA82B7007D9B5A /* LaunchScreenApp.storyboard */,
 			);
 			path = AppleSwiftSample;
 			sourceTree = "<group>";
@@ -182,6 +188,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0A48A7A41DAA50E3007D9B5A /* LaunchScreen.storyboard in Resources */,
+				0A48A7BC1DAA82B7007D9B5A /* LaunchScreenApp.storyboard in Resources */,
 				0A48A7A11DAA50E3007D9B5A /* Assets.xcassets in Resources */,
 				0A48A79F1DAA50E3007D9B5A /* Main.storyboard in Resources */,
 			);
@@ -202,6 +209,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0A48A79C1DAA50E3007D9B5A /* ViewController.swift in Sources */,
+				0A48A7BA1DAA7EE6007D9B5A /* RatingControl.swift in Sources */,
 				0A48A79A1DAA50E3007D9B5A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -284,7 +292,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -328,7 +336,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";

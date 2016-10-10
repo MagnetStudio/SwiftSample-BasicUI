@@ -14,12 +14,18 @@ class MealViewController: UIViewController, UITextFieldDelegate, UIImagePickerCo
     @IBOutlet weak var nameTextField: UITextField!
     @IBOutlet weak var photoImageView: UIImageView!
     @IBOutlet weak var ratingControl: RatingControl!
+    @IBOutlet weak var saveButton: UIBarButtonItem!
+    
+    var meal:Meal?
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
         // Handle the text field’s user input through delegate callbacks.
         nameTextField.delegate = self
+        
+        checkValidMealName()
+        
     }
     
     // MARK: UITextFieldDelegate
@@ -30,7 +36,20 @@ class MealViewController: UIViewController, UITextFieldDelegate, UIImagePickerCo
         return true
     }
     
+    func textFieldDidBeginEditing(_ textField: UITextField) {
+        // Disable the Save button while editing.
+        saveButton.isEnabled = false
+    }
+    
+    func checkValidMealName() {
+        // Disable the Save button if the text field is empty.
+        let text = nameTextField.text ?? ""
+        saveButton.isEnabled = !text.isEmpty
+    }
+    
     func textFieldDidEndEditing(_ textField: UITextField) {
+        checkValidMealName()
+        navigationItem.title = textField.text
     }
     
     // MARK: UIImagePickerControllerDelegate
@@ -50,6 +69,16 @@ class MealViewController: UIViewController, UITextFieldDelegate, UIImagePickerCo
         dismiss(animated: true, completion: nil)
     }
     
+    // MARK: Navigation
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if saveButton === sender as! UIBarButtonItem {
+            let name = nameTextField.text ?? ""
+            let photo = photoImageView.image
+            let rating = ratingControl.rating
+            meal = Meal(name: name, photo: photo, rating: rating)
+        }
+    }
+    
     // MARK: Actions
     @IBAction func selectImageFromPhotoLibrary(_ sender: UITapGestureRecognizer) {
         // Hide the keyboard.
@@ -66,5 +95,7 @@ class MealViewController: UIViewController, UITextFieldDelegate, UIImagePickerCo
         
         present(imagePickerController, animated: true, completion: nil)
     }
+    
+
     
 }

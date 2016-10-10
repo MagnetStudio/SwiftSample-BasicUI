@@ -5,7 +5,7 @@
 //  Created by Ka on 2016/10/09.
 //  Copyright © 2016年 KaJack. All rights reserved.
 //
-
+import UIKit
 import XCTest
 @testable import AppleSwiftSample
 
@@ -32,5 +32,23 @@ class AppleSwiftSampleTests: XCTestCase {
             // Put the code you want to measure the time of here.
         }
     }
+    
+    // MARK: FoodTracker Tests
+    func testMealInitialization() {
+        
+        // Success case.
+        let potentialItem = Meal(name:"Newest meal",photo:nil,rating:5);
+        XCTAssertNotNil(potentialItem);
+        
+        // Failure cases.
+        let noName = Meal(name: "", photo: nil, rating: 0);
+        XCTAssertNil(noName, "Empty name is invalid");
+        
+        let badRating = Meal(name: "Really bad rating", photo: nil, rating: -1);
+        //XCTAssertNotNil(badRating);
+        XCTAssertNil(badRating, "Negative ratings are invalid, be positive")
+        
+    }
+    
     
 }

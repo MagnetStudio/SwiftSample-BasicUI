@@ -46,6 +46,7 @@
                                     <outlet property="nameLabel" destination="ELT-3D-18a" id="QHa-bT-lyz"/>
                                     <outlet property="photoImageView" destination="wbH-Tc-5JL" id="U9x-50-pSY"/>
                                     <outlet property="ratingControl" destination="1tr-k2-mce" id="Alz-fr-tiw"/>
+                                    <segue destination="BYZ-38-t0r" kind="show" identifier="ShowDetail" id="Pa9-hx-mh3"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -115,7 +116,11 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="New Meal" id="VLf-sR-ia7">
-                        <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="pgU-1M-vZa"/>
+                        <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="pgU-1M-vZa">
+                            <connections>
+                                <action selector="cancel:" destination="BYZ-38-t0r" id="sWP-bc-KyE"/>
+                            </connections>
+                        </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" systemItem="save" id="hnl-QR-a0l">
                             <connections>
                                 <segue destination="IIQ-2d-aBE" kind="unwind" unwindAction="unwindToMealListWithSender:" id="IQN-SB-Xbx"/>
@@ -173,10 +178,13 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YXj-sP-HxZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1053.5999999999999" y="121.88905547226388"/>
+            <point key="canvasLocation" x="1023" y="478"/>
         </scene>
     </scenes>
     <resources>
         <image name="defaultPhoto" width="540" height="540"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="Pa9-hx-mh3"/>
+    </inferredMetricsTieBreakers>
 </document>
